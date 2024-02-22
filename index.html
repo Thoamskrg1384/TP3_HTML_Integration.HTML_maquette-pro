@@ -5,9 +5,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Gaming Campus</title>
+  <script src="https://kit.fontawesome.com/da3c07f169.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
+
   <nav>
     <ul>
       <li>ACCUEIL</li>
@@ -17,15 +19,18 @@
       <li>LE Campus</li>
       <li>NEWSROOM</li>
       <li>PARENTS</li>
+      <li id="Language">FR | EN</li>
     </ul>
-    <button>FR/EN</button>
   </nav>
+
   <header>
-    <div class="logo">
-      <img src="./assets/img/logo-gc-hero.png" alt="logo GAMING CAMPUS">
+    <div class="main-header">
+      <div #="logo">
+        <img src="./assets/img/logo-gc-hero.png" alt="logo GAMING CAMPUS">
+      </div>
+      <h1>PASSION. PROFESSIONNALISME. PERFORMANCE.</h1>
+      <button>GAMING CAMPUS EN VIDEO<i class="fa-solid fa-angle-right"></i></button>
     </div>
-    <h1>PASSION. PROFESSIONNALISME. PERFORMANCE.</h1>
-    <a href="#">GAMING CAMPUS EN VIDEO > </a>
   </header>
   <main>
     <div class="intro">
@@ -35,61 +40,73 @@
         développer les compétences.
       </p>
     </div>
-    <section class="activities-sectiion">
-      <div class="activity-container">
-        <div class="activity-figure">
-          <img src="./assets/img/logo-gbs-home.png" alt="image G.B.S.">
+
+    <section class="activities-section">
+      <div class="activities">
+
+        <div class="activity-container">
+          <div class="activity-figure">
+            <img src="./assets/img/logo-gbs-home.png" alt="image G.B.S.">
+          </div>
+          <div class="activity-content">
+            <h3>GAMING BUSINESS SCHOOL</h3>
+            <p>
+              formez-vous dans la première école de management dédiée aux enjeux
+              et métiers du jeuvidéo.
+            </p>
+          </div>
+          <button class="activity-btn">EN SAVOIR PLUS</button>
         </div>
-        <div class="activity-content">
-          <h2>GAMING BUSINESS SCHOOL</h2>
-          <p>
-            formez-vous dans la première école de management dédiée aux enjeux
-            et métiers du jeuvidéo.
-          </p>
+
+        <div class="activity-container">
+          <div class="activity-figure">
+            <img src="./assets/img/logo-ga-home.png" alt="image G.A">
+          </div>
+          <div class="activity-content">
+            <h3>GAMING ACADEMY</h3>
+            <p>
+              Entrainez-vous dans des conditions optimales pour devenir esportif
+              professionel.
+            </p>
+          </div>
+          <button class="activity-btn">EN SAVOIR PLUS</button>
         </div>
-        <div class="activity-btn">EN SAVOIR PLUS</div>
+
+        <div class="activity-container">
+          <div class="activity-figure">
+            <img src="./assets/img/logo-ga-home.png" alt="image G.A">
+          </div>
+          <div class="activity-content">
+            <h3>GAMING GURU</h3>
+            <p>
+              Jouez avec les meilleurs gamers pour vous améliorer dans vos jeux
+              vidéos préférés.
+            </p>
+          </div>
+          <button class="activity-btn">EN SAVOIR PLUS</button>
+        </div>
+
       </div>
-      <div class="activity-container">
-        <div class="activity-figure">
-          <img src="./assets/img/logo-ga-home.png" alt="image G.A">
-        </div>
-        <div class="activity-content">
-          <h2>GAMING ACADEMY</h2>
-          <p>
-            Entrainez-vous dans des conditions optimales pour devenir esportif
-            professionel.
-          </p>
-        </div>
-        <div class="activity-btn">EN SAVOIR PLUS</div>
-      </div>
-      <div class="activity-container">
-        <div class="activity-figure">
-          <img src="./assets/img/logo-ga-home.png" alt="image G.A">
-        </div>
-        <div class="activity-content">
-          <h2>GAMING GURU</h2>
-          <p>
-            Jouez avec les meilleurs gamers pour vous améliorer dans vos jeux
-            vidéos préférés.
-          </p>
-        </div>
-        <div class="activity-btn">EN SAVOIR PLUS</div>
-      </div>
+
     </section>
+
     <section class="news-section">
-      <div>
-        <div>
+
+      <div class="header-news">
+        <div class="left-part">
           <h2>LES NEWS DU CAMPUS</h2>
           <h3>
             Suivez l'actualité de Gaming Campus, de G.Guru, G.B.S et
             G.Academy.
           </h3>
         </div>
-        <div class="newsroom-link">
-          <a href="#"> LA NEWSROOM</a>
+        <div class="right-part">
+          <button> LA NEWSROOM<i class="fa-solid fa-angle-right"></i></button>
         </div>
       </div>
+
       <div class="news-container">
+
         <div class="news">
           <div class="news-figure">
             <img src="./assets/img/ri8decembre.jpg" alt="image réunion">
@@ -104,9 +121,10 @@
             </p>
           </div>
           <div class="news-link">
-            <a href="#">SUR INSCRIPTION ></a>
+            <a href="#">SUR INSCRIPTION<i class="fa-solid fa-angle-right"></i></a>
           </div>
         </div>
+
         <div class="news">
           <div class="news-figure">
             <img src="./assets/img/pgw18home.jpg" alt="image #PGW">
@@ -120,9 +138,10 @@
             </p>
           </div>
           <div class="news-link">
-            <a href="#">LIRE LA SUITE ></a>
+            <a href="#">LIRE LA SUITE<i class="fa-solid fa-angle-right"></i></a>
           </div>
         </div>
+
         <div class="news">
           <div class="news-figure">
             <img src="./assets/img/inauguration_gaming_campus_photo.jpg" alt="photo inauguration">
@@ -136,49 +155,63 @@
             </p>
           </div>
           <div class="news-link">
-            <a href="#">LIRE LA SUITE ></a>
+            <a href="#">LIRE LA SUITE<i class="fa-solid fa-angle-right"></i></a>
           </div>
         </div>
+
       </div>
+
     </section>
+
     <section class="infos-section">
       <div class="infos-top">
-        <div class="infos-containers">
-          <img src="./assets/img/logo-gc-footer.jpg" alt="logo gaming campus">
-        </div>
-        <div class="infos-containers">
-          <h3>INFOS PRATIQUES</h3>
-          <a href="#">Gaming Business SCHOOL</a>
-          <a href="#">Gaming Academy</a>
-          <a href="#">Gaming Guru</a>
-          <a href="#">Recrutement</a>
-          <a href="#">Investisseurs</a>
-          <a href="#">Mentions légales</a>
-          <a href="#">C.G.U</a>
-        </div>
-        <div class="infos-containers">
-          <h3>PARENTS</h3>
-          <p>
-            Questions / réponses pour vous accompagner dans votre réflexion
-            sur l'organisation de votre enfant et le choix de Gaming Campus
-          </p>
-          <a href="#">En savoir plus</a>
-        </div>
-        <div class="infos-containers">
-          <div class="contacts">
-            <h3>NOUS CONTACTER</h3>
-            <p>Tél. 04 28 29 81 03</p>
-            <p>contact@gamingcampus.fr</p>
+        <div class="infos-list">
+
+          <div class="list">
+            <div id="infos-img">
+              <img src="./assets/img/logo-gc-footer.jpg" alt="logo gaming campus">
+            </div>
           </div>
-          <div>
-            <h3>NOUS SUIVRE</h3>
-            <div class="icons-contacts"></div>
+
+          <div class="list">
+            <h5>INFOS PRATIQUES</h5>
+            <ul class="infos-containers">
+              <li><a href="#">Gaming Business SCHOOL</a></li>
+              <li><a href="#">Gaming Academy</a></li>
+              <li><a href="#">Gaming Guru</a></li>
+              <li><a href="#">Recrutement</a></li>
+              <li><a href="#">Investisseurs</a></li>
+              <li><a href="#">Mentions légales</a></li>
+              <li><a href="#">C.G.U</a></li>
+            </ul>
           </div>
-          <div class="conformity">
-            <p>2018 Gaming Campus.</p>
+
+          <div class="list">
+            <h5>PARENTS</h5>
+            <p>
+              Questions / réponses pour vous accompagner dans votre réflexion
+              sur l'organisation de votre enfant et le choix de Gaming Campus
+            </p>
+            <a href="#">En savoir plus</a>
+          </div>
+
+          <div class="list">
+            <h5>NOUS CONTACTER</h5>
+            <h6>Tél. 04 28 29 81 03</h6>
+            <h6>contact@gamingcampus.fr</h6>
+            <h5 class="network">NOUS SUIVRE</h5>
+            <div class="icons-network">
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-linkedin"></i>
+              <i class="fa-brands fa-instagram"></i>
+            </div>
+            <p class="copyright">© 2018 Gaming Campus.</p>
             <p>Tout droits réservés</p>
           </div>
+
         </div>
+
       </div>
       <div class="infos_bottom">
         <div>
@@ -186,70 +219,68 @@
           <p>Voir toutes les retombées presse</p>
         </div>
         <div class=".medias-pics-containers">
-          <div class="media-pic">
+          <span class="media-pic">
             <img src="./assets/img/figaro.png" alt="logo figaro">
-          </div>
-          <div class="media-pic">
+          </span>
+          <span class="media-pic">
             <img src="./assets/img/challenges.png" alt="logo challengeS">
-          </div>
-          <div class="media-pic">
-            <img src="./assets/img/leparisien.png" alt="logo le parisien">
-          </div>
-          <div class="media-pic">
+          </span>
+          <span class="media-pic">
+            <imgspan src="./assets/img/leparisien.png" alt="logo le parisien">
+          </span>
+          <span class="media-pic">
             <img src="./assets/img/lemonde.png" alt="logo le monde">
-          </div>
-          <div class="media-pic">
+          </span>
+          <span class="media-pic">
             <img src="./assets/img/progres.png" alt="logo le progès">
-          </div>
-          <div class="media-pic">
+          </span>
+          <span class="media-pic">
             <img src="./assets/img/echos.png" alt="logo les echos">
-          </div>
-          <div class="media-pic">
+          </span>
+          <span class="media-pic">
             <img src="./assets/img/bfm.png" alt="logo bfm">
-          </div>
-          <div class="media-pic">
+          </span>
+          <span class="media-pic">
             <img src="./assets/img/lepoint.png" alt="logo l'equipe">
-          </div>
+          </span>
         </div>
       </div>
     </section>
   </main>
   <footer>
-    <div>
-      <h2>PARTENAIRES OFFICIELS</h2>
-    </div>
-    <div class="logos-partners-container">
-      <div class="partners pics">
-        <img src="./assets/img/apollo.png" alt="LOGO APOLLO">
-      </div>
-      <div class="partners pics">
-        <img src="./assets/img/chiliz.png" alt="LOGO CHILIZ">
-      </div>
-      <div class="partners pics">
-        <img src="./assets/img/omen.png" alt="LOGO OMEN">
-      </div>
-      <div class="partners pics">
-        <img src="./assets/img/joa.png" alt="LOGO JOA">
-      </div>
-      <div class="partners pics">
-        <img src="./assets/img/zol.png" alt="LOGO ZOL">
-      </div>
-      <div class="partners pics">
-        <img src="./assets/img/maxonomic.png" alt="LOGO MAXONOMIC">
-      </div>
-      <div class="partners pics">
-        <img src="./assets/img/credit-mutuel.png" alt="LOGO CREDIT MUTUEL">
-      </div>
-      <div class="partners pics">
-        <img src="./assets/img/talent-web.png" alt="LOGO TALENT WEB">
-      </div>
-      <div class="partners pics">
-        <img src="./assets/img/ubisoft.png" alt="LOGO UBISOFT">
-      </div>
-      <div class="partners pics">
-        <img src="./assets/img/vitality.png" alt="LOGO VITALITY">
-      </div>
-    </div>
+      <h3>PARTENAIRES OFFICIELS</h3>
+      <ul>
+        <li>
+          <img src="./assets/img/apollo.png" alt="LOGO APOLLO">
+        </li>
+        <li
+          <img src="./assets/img/chiliz.png" alt="LOGO CHILIZ">
+        </li>
+        <li>
+          <img src="./assets/img/omen.png" alt="LOGO OMEN">
+        </li>
+        <li>
+          <img src="./assets/img/joa.png" alt="LOGO JOA">
+        </li>
+        <li>
+          <img src="./assets/img/zol.png" alt="LOGO ZOL">
+        </li>
+        <li>
+          <img src="./assets/img/maxonomic.png" alt="LOGO MAXONOMIC">
+        </li>
+        <li>
+          <img src="./assets/img/credit-mutuel.png" alt="LOGO CREDIT MUTUEL">
+        </li>
+        <li>
+          <img src="./assets/img/talent-web.png" alt="LOGO TALENT WEB">
+        </li>
+        <li>
+          <img src="./assets/img/ubisoft.png" alt="LOGO UBISOFT">
+        </li>
+        <li>
+          <img src="./assets/img/vitality.png" alt="LOGO VITALITY">
+        </li>
+      </ul>
   </footer>
 </body>
 
